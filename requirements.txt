@@ -1,2 +1,4 @@
-nose
-sphinx
+fuzzywuzzy
+python-Levenshtein
+pytest
+pandas

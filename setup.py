@@ -12,14 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='unifyname',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='unifyname package for Python-Guide.org',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Vincent Belz',
+    author_email='vincent.belz@loft.com.br',
+    url='https://github.com/vincent-belz/unifyname',
     license=license,
-    packages=find_packages(exclude=('tests', 'docs'))
+    packages=find_packages(exclude=('tests', 'data','demo'))
 )
-

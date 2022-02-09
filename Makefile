@@ -2,4 +2,5 @@ init:
 	pip install -r requirements.txt
 
 test:
-	nosetests tests
+	cd tests/
+	pytest
