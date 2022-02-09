@@ -9,7 +9,7 @@ from unifyname.utils import unify_names, deduplicate_list_string
 def test_output_unify_name():
     """ test that unify_names is working as expected"""
 
-    data = pd.read_csv("../data/sample_data_nlp.csv",index_col=0)
+    data = pd.read_csv("./data/sample_data_nlp.csv",index_col=0)
 
     input_size = len(data['BAIRRO DO IMOVEL'].value_counts())
 
