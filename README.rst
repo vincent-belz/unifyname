@@ -2,4 +2,5 @@ unifyname Module Repository
 ================================================
 
 
-<img src="img/unifyname.png" alt="unifyname" title="unifyname"/>
+
+.. image:: https://github.com/vincent-belz/unifyname/blob/master/img/unifyname.png
