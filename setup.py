@@ -11,6 +11,9 @@ with open('README.rst') as f:
 with open('LICENSE') as f:
     license = f.read()
 
+with open("requirements.txt", "r") as fh:
+   requirements = fh.readlines()
+
 setup(
     name='unifyname',
     version='0.1.0',
@@ -20,5 +23,6 @@ setup(
     author_email='vincent.belz@loft.com.br',
     url='https://github.com/vincent-belz/unifyname',
     license=license,
-    packages=find_packages(exclude=('tests', 'data','demo'))
+    packages=find_packages(exclude=('tests', 'data','demo')),
+    install_requires=[req for req in requirements if req[:2] != "# "],
 )
