@@ -11,7 +11,7 @@ with open('README.rst') as f:
 with open('LICENSE') as f:
     license = f.read()
 
-with open("requirements.txt", "r") as fh:
+with open("./requirements.txt", "r") as fh:
    requirements = fh.readlines()
 
 setup(
